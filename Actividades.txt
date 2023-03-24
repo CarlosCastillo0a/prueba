@@ -1,0 +1,119 @@
+Actividades
+
+Antes de empezar:
+
+- Definir los estándares de como escribir código
+- Revisar todos los servicios que se necesitan cambiar (Esto puede cambiar el tiempo de estimación)
+- Revisar que los servicios nuevos que vamos a mover/implementar cuentan con la suficiente capacidad para trabajar con los nuevos cambios
+
+Semana 1:
+
+Repo:
+- https://github.com/sagaontech/sagaon-server-postgre/tree/refactorazion-y-migracion
+
+Tarea:
+- Refactorizar.
+- Ordenar.
+- Borrar lo de seatable.
+- Cambiarlo por postgres.
+- Documentar en postman.
+
+Variables que puedan cambiar el tiempo:
+- Ayudar y/o revisar el progreso de Daniel
+- La complejidad del código
+
+Semana 2:
+
+Repo:
+- https://github.com/sagaontech/sagaon-server-postgre/tree/refactorazion-y-migracion
+
+Tarea:
+- Terminar de definir los modelos de las tablas y consultarlo con el jefe
+
+Variables que puedan cambiar el tiempo:
+- Disponibilidad del jefe.
+- Ayudar y/o revisar el progreso de Daniel.
+- Si está mal las tablas
+
+Semana 3, 4 y 5:
+
+Repo:
+- https://github.com/sagaontech/integrationsDB
+
+Tarea:
+- Refactorizar.
+- Ordenar.
+- Borrar lo de seatable.
+- Cambiarlo por postgres.
+- Documentar en postman.
+
+Variables que puedan cambiar el tiempo:
+- Ayudar y/o revisar el progreso de Daniel
+- La complejidad del código
+
+Nota: Debido a que muchos servicios están involucrados puede ser más complejo, lo mínimo necesario serían 3 semanas.
+
+Semana 6:
+
+Repo:
+- https://github.com/sagaontech/integrationsDB
+
+Tarea:
+- Terminar de definir los modelos de las tablas y consultarlo con el jefe
+
+Variables que puedan cambiar el tiempo:
+- Disponibilidad del jefe.
+- Ayudar y/o revisar el progreso de Daniel.
+- Si está mal las tablas
+
+Nota: Como en las anteriores semanas ya se definió la mayoría de las tablas Esto puede tardar menos.
+
+Semana 7, 8:
+Repo:
+- https://github.com/sagaontech/jsfn-stech
+
+Tarea:
+- Refactorizar.
+- Ordenar.
+- Borrar lo de seatable.
+- Cambiarlo por postgres.
+- Documentar en postman.
+
+Variables que puedan cambiar el tiempo:
+- Ayudar y/o revisar el progreso de Daniel
+- La complejidad del código
+
+Semana 9:
+Repo:
+- null
+
+Tarea:
+- Revisar que todas las tablas estén bien definidas y con lo necesario que se requiere
+- Prueba de migración con los datos de desarrollo
+- Agregar funciones de sincronización para pasar los datos y no perder ninguno, realizar pruebas para que no fallen.
+- Probar que esté funcionado todos los servicios
+
+Semana 10:
+Repo:
+- null
+
+Tarea:
+- Crear los entornos de stage.
+- Subir el código nuevo adaptado a postgres en los entornos de stage
+- Implementar CI/CD a los entornos de stage
+- Configurar los entornos de stage
+- Revisar una GUI parecida a seatable
+
+Semana 11,12 (Final, Aquí ya estaremos usando 100% postgres):
+Repo:
+- null
+
+Tarea:
+- Probar en los entornos de stage que todo esté funcionando correctamente
+- Revisar, anotar errores para que el programador lo pueda arreglar
+- Realizar pruebas exhaustivas
+- Revisar si los datos se guardan correctamente en postgres
+- Adaptarse a la nueva GUI
+- Usarlo como si fuera el entorno de producción
+
+Nota: Aquí dependerá mucho de como vayamos probando y como nos esté funcionando la migración, Si todo va bien en unas semanas ya se usará en producción
